@@ -52,7 +52,7 @@ export default function Game() {
     return (
         <View style={styles.container}>
             <Text style={styles.titulo}>Jogo da Velha</Text>
-            <Text style={styles.subtitulo}>Aplicação desenvolvida por alunos da turna 2022A</Text>
+            <Text style={styles.subtitulo}>Atividade desenvolvida por alunos da turna 2022A</Text>
             <Text style={styles.status}>Jogador da vez: {jogadorAtual}</Text>
             {
                 (venceuJogo) ? 

@@ -1,5 +1,7 @@
-import { Text, View } from 'react-native';
+import { ImageBackground, Text, View } from 'react-native';
 import styles from './styles';
+
+import imgCapa from '../../assets/logo.png';
 
 export default function Casa(
     {
@@ -8,13 +10,15 @@ export default function Casa(
         temBordaInferior = false,
         pecaVitorisosa = false,
     }) {
+
     
     const larguraBordaDireita = (temBordaDireita) ? 3 : 0;
     const larguraBordaInferior = (temBordaInferior) ? 3 : 0;
 
     const corTexto = (pecaVitorisosa) ? 'red' : 'black';
     
-    return(    
+    return(
+               
         <View style={[styles.coluna, {
             borderRightWidth: larguraBordaDireita,
             borderBottomWidth: larguraBordaInferior
