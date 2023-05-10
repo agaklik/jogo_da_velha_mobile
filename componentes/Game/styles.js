@@ -12,6 +12,12 @@ const styles = StyleSheet.create({
       fontSize: 32,
       marginBottom: 24,
     },
+
+    subtitulo: {
+      fontSize: 15,
+      marginBottom: 24,
+      textAlign: 'center',
+    },
   
     linha: {
       display: 'flex',
